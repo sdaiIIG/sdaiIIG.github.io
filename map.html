@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&ak=Q7p2MwOYo63hy5KiKKa92gmKgRimWT2N"></script>
+
+</head>
+
+<body>
+  
+  <div style="width:345px;height:200px;border:#ccc solid 1px;" id="dituContent"></div>
+</body>
+<script type="text/javascript">
+    
+    function initMap(){
+        createMap();
+        setMapEvent();
+        addMapControl();
+    }
+    
+    
+    function createMap(){
+        var map = new BMap.Map("dituContent");
+        var point = new BMap.Point(117.05346,36.650421);
+        map.centerAndZoom(point,17);
+        window.map = map;
+    }
+    
+    
+    function setMapEvent(){
+        map.enableDragging();
+        map.enableScrollWheelZoom();
+        map.enableDoubleClickZoom();
+        map.enableKeyboard();
+    }
+    
+    
+    function addMapControl(){
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+	map.addControl(ctrl_ove);
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();
+</script>
+</html>

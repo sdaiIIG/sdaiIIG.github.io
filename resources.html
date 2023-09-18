@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset=utf-8"utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Information Intelligence Group</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/fonts.googleapis.com/css-family=Lato-300,400,700,900.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div class="header">
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a style="cursor:pointer" onclick="window.location='index.html'" class="logo"><img src="images/logo.png" height="30px" alt="" /></a></li>
+                    <li><a style="cursor:pointer" onclick="window.location='index.html'"> 首页 </a></li>
+                    <li><a style="cursor:pointer" onclick="window.location='people.html'"> 成员 </a></li>
+                    <li><a style="cursor:pointer" onclick="window.location='publications.html'"> 发表论文 </a></li>
+                    <li><a style="cursor:pointer" onclick="window.location='resources.html'"> 资源 </a></li>
+                    <li><a style="cursor:pointer" onclick="window.location='index.html#contact'"> 联系方式 </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading"><br><b>资源</b></h2>
+        <div class="container">
+            <div class="row">
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=393 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Unsupervised Online Video Object Segmentation with Motion Property Understanding</h4>
+                        <h5>Tao Zhuo, Zhiyong Cheng, Peng Zhang, Yongkang Wong, Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: Unsupervised video object segmentation aims to automatically segment moving objects over an unconstrained video without any user annotation. So far, only few unsupervised online methods have been reported in literature and their performance is still far from satisfactory, because the complementary information from future frames cannot be processed under online setting. To solve this challenging problem, in this paper, we propose a novel Unsupervised Online Video Object Segmentation (UOVOS) framework by construing the motion property to mean moving in concurrence with a generic object for segmented regions. By incorporating salient motion detection and object proposal, a pixel-wise fusion strategy is developed to effectively remove detection noise such as dynamic background and stationary objects. Furthermore, by leveraging the obtained segmentation from immediately preceding frames, a forward propagation algorithm is employed to deal with unreliable motion detection and object proposals. Experimental results on several benchmark datasets demonstrate the efficacy of the proposed method. Compared to the state-of-the-art unsupervised online segmentation algorithms, the proposed method achieves an absolute gain of 6.2%. Moreover, our method achieves better performance than the best unsupervised offline algorithm on the DAVIS-2016 benchmark dataset. </p>
+                        [<a href="https://arxiv.org/abs/1810.03783">PDF</a>][<a href="https://github.com/visiontao/UOVOS">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=476 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Personalized Hashtag Recommendation for Micro-videos</h4>
+                        <h5>Yinwei Wei, Zhiyong Cheng*, Xuzheng Yu, Zhou Zhao, Lei Zhu and Liqiang Nie*</h5>
+                        <p><b>Abstract</b>: Personalized hashtag recommendation methods aim to suggest users hashtags to annotate, categorize, and describe their posts. The hashtags, that a user provides to a post (e.g., a micro-video), are the ones which in her mind can well describe the post content where she is interested in. It means that we should consider both users' preferences on the post contents and their personal understanding on the hashtags. Most existing methods rely on modeling either the interactions between hashtags and posts or the interactions between users and hashtags for hashtag recommendation. These methods have not well explored the complicated interactions among users, hashtags, and micro-videos. In this paper, towards the personalized micro-video hashtag recommendation, we propose a Graph Convolution Network based Personalized Hashtag Recommendation (GCN-PHR) model, which leverages recently advanced GCN techniques to model the complicate interactions among <users, hashtags, micro-videos> and learn their representations. In our model, the users, hashtags, and micro-videos are three types of nodes in a graph and they are linked based on their direct associations. In particular, the message-passing strategy is used to learn the representation of a node (e.g., user) by aggregating the message passed from the directly linked other types of nodes (e.g., hashtag and micro-video). Because a user is often only interested in certain parts of a micro-video and a hashtag is typically used to describe the part (of a micro-video) that the user is interested in, we leverage the attention mechanism to filter the message passed from micro-videos to users and hashtags, which can significantly improve the representation capability. Extensive experiments have been conducted on two real-world micro-video datasets and demonstrate that our model outperforms the state-of-the-art approaches by a large margin. </p>
+                        [<a href="https://arxiv.org/abs/1908.09987">PDF</a>][<a href="https://github.com/weiyinwei/GCN_PHR">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=434 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Explainable Video Action Reasoning via Prior Knowledge and State Transitions</h4>
+                        <h5>Tao Zhuo, Zhiyong Cheng*, Peng Zhang, Yongkang Wong, Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: Human action analysis and understanding in videos is an important and challenging task. Although substantial progress has been made in past years, the explainability of existing methods is still limited. In this work, we propose a novel action reasoning framework that uses prior knowledge to explain semantic-level observations of video state changes. Our method takes advantage of both classical reasoning and modern deep learning approaches. Specifically, prior knowledge is defined as the information of a target video domain, including a set of objects, attributes and relationships in the target video domain, as well as relevant actions defined by the temporal attribute and relationship changes (i.e. state transitions). Given a video sequence, we first generate a scene graph on each frame to represent concerned objects, attributes and relationships. Then those scene graphs are linked by tracking objects across frames to form a spatio-temporal graph (also called video graph), which represents semantic-level video states. Finally, by sequentially examining each state transition in the video graph, our method can detect and explain how those actions are executed with prior knowledge, just like the logical manner of thinking by humans. Compared to previous works, the action reasoning results of our method can be explained by both logical rules and semantic-level observations of video content changes. Besides, the proposed method can be used to detect multiple concurrent actions with detailed information, such as who (particular objects), when (time), where (object locations) and how (what kind of changes). Experiments on a re-annotated dataset CAD-120 show the effectiveness of our method. </p>
+                        [<a href="https://arxiv.org/abs/1908.10700">PDF</a>][<a href="https://github.com/visiontao/evar">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=476 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Quantifying and Alleviating the Language Prior Problem in Visual Question Answering</h4>
+                        <h5>Yangyang Guo, Zhiyong Cheng*, Liqiang Nie*, Yibing Liu, Yinglong Wang and Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: Benefiting from the advancement of computer vision, natural language processing and information retrieval techniques, visual question answering (VQA), which aims to answer questions about an image or a video, has received lots of attentions over the past few years. Although some progress has been achieved so far, several studies have pointed out that current VQA models are heavily affected by the \emph{language prior problem}, which means they tend to answer questions based on the co-occurrence patterns of question keywords (e.g., how many) and answers (e.g., 2) instead of understanding images and questions. Existing methods attempt to solve this problem by either balancing the biased datasets or forcing models to better understand images. However, only marginal effects and even performance deterioration are observed for the first and second solution, respectively. In addition, another important issue is the lack of measurement to quantitatively measure the extent of the language prior effect, which severely hinders the advancement of related techniques.In this paper, we make contributions to solve the above problems from two perspectives. Firstly, we design a metric to quantitatively measure the language prior effect of VQA models. The proposed metric has been demonstrated to be effective in our empirical studies. Secondly, we propose a regularization method (i.e., score regularization module) to enhance current VQA models by alleviating the language prior problem as well as boosting the backbone model performance. The proposed score regularization module adopts a pair-wise learning strategy, which makes the VQA models answer the question based on the reasoning of the image (upon this question) instead of basing on question-answer patterns observed in the biased training set. The score regularization module is flexible to be integrated into various VQA models. </p>
+                        [<a href="https://arxiv.org/abs/1905.04877">PDF</a>][<a href="https://github.com/guoyang9/vqa-prior">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=476 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Compositional Coding for Collaborative Filtering</h4>
+                        <h5>Chenghao Liu, Tao Lu, Xin Wang, Zhiyong Cheng, Jianling Sun and Steven C.H. Hoi</h5>
+                        <p><b>Abstract</b>: Efficiency is crucial to the online recommender systems. Representing users and items as binary vectors for Collaborative Filtering (CF) can achieve fast user-item affinity computation in the Hamming space, in recent years, we have witnessed an emerging research effort in exploiting binary hashing techniques for CF methods. However, CF with binary codes naturally suffers from low accuracy due to limited representation capability in each bit, which impedes it from modeling complex structure of the data.In this work, we attempt to improve the efficiency without hurting the model performance by utilizing both the accuracy of real-valued vectors and the efficiency of binary codes to represent users/items. In particular, we propose the Compositional Coding for Collaborative Filtering (CCCF) framework, which not only gains better recommendation efficiency than the state-of-the-art binarized CF approaches but also achieves even higher accuracy than the real-valued CF method. Specifically, CCCF innovatively represents each user/item with a set of binary vectors, which are associated with a sparse real-value weight vector. Each value of the weight vector encodes the importance of the corresponding binary vector to the user/item. The continuous weight vectors greatly enhances the representation capability of binary codes, and its sparsity guarantees the processing speed. Furthermore, an integer weight approximation scheme is proposed to further accelerate the speed. Based on the CCCF framework, we design an efficient discrete optimization algorithm to learn its parameters. Extensive experiments on three real-world datasets show that our method outperforms the state-of-the-art binarized CF methods (even achieves better performance than the real-valued CF method) by a large margin in terms of both recommendation accuracy and efficiency. </p>
+                        [<a href="https://arxiv.org/abs/1905.03752">PDF</a>][<a href="https://github.com/3140102441/CCCF">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=393 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Attentive Aspect Modeling for Review-Aware Recommendation</h4>
+                        <h5>Xinyu Guan, Zhiyong Cheng*, Xiangnan He, Yongfeng Zhang, Zhibo Zhu, Qinke Peng, Tat-Seng Chua</h5>
+                        <p><b>Abstract</b>: In recent years, many studies extract aspects from user reviews and integrate them with ratings for improving the recommendation performance. The common aspects mentioned in a user's reviews and a product's reviews indicate indirect connections between the user and product. However, these aspect-based methods suffer from two problems. First, the common aspects are usually very sparse, which is caused by the sparsity of user-product interactions and the diversity of individual users' vocabularies. Second, a user's interests on aspects could be different with respect to different products, which are usually assumed to be static in existing methods. In this paper, we propose an Attentive Aspect-based Recommendation Model (AARM) to tackle these challenges. For the first problem, to enrich the aspect connections between user and product, besides common aspects, AARM also models the interactions between synonymous and similar aspects. For the second problem, a neural attention network which simultaneously considers user, product and aspect information is constructed to capture a user's attention towards aspects when examining different products. Extensive quantitative and qualitative experiments show that AARM can effectively alleviate the two aforementioned problems and significantly outperforms several state-of-the-art recommendation methods on top-N recommendation task. </p>
+                        [<a href="https://arxiv.org/abs/1811.04375">PDF</a>][<a href="https://github.com/XinyuGuan01/Attentive-Aspect-based-Recommendation-Model">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=393 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Attentive Long Short-Term Preference Modeling for Personalized Product Search</h4>
+                        <h5>Yangyang Guo, Zhiyong Cheng*, Liqiang Nie*, Yinglong Wang, Jun Ma, Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: E-commerce users may expect different products even for the same query, due to their diverse personal preferences. It is well-known that there are two types of preferences: long-term ones and short-term ones. The former refers to user' inherent purchasing bias and evolves slowly. By contrast, the latter reflects users' purchasing inclination in a relatively short period. They both affect users' current purchasing intentions. However, few research efforts have been dedicated to jointly model them for the personalized product search. To this end, we propose a novel Attentive Long Short-Term Preference model, dubbed as ALSTP, for personalized product search. Our model adopts the neural networks approach to learn and integrate the long- and short-term user preferences with the current query for the personalized product search. In particular, two attention networks are designed to distinguish which factors in the short-term as well as long-term user preferences are more relevant to the current query. This unique design enables our model to capture users' current search intentions more accurately. Our work is the first to apply attention mechanisms to integrate both long- and short-term user preferences with the given query for the personalized search. Extensive experiments over four Amazon product datasets show that our model significantly outperforms several state-of-the-art product search methods in terms of different evaluation metrics.</p>
+                        [<a href="https://arxiv.org/abs/1811.10155">PDF</a>][<a href="https://github.com/guoyang9/ALSTP">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=434 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>MMALFM: Explainable Recommendation by Leveraging Reviews and Images</h4>
+                        <h5>Zhiyong Cheng, Xiaojun Chang, Lei Zhu, Rose C. Kanjirathinkal, Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: Although the latent factor model achieves good accuracy in rating prediction, it suffers from many problems including cold-start, non-transparency, and suboptimal results for individual user-item pairs. In this paper, we exploit textual reviews and item images together with ratings to tackle these limitations. Specifically, we first apply a proposed multi-modal aspect-aware topic model (MATM) on text reviews and item images to model users' preferences and items' features from different aspects, and also estimate the aspect importance of a user towards an item. Then the aspect importance is integrated into a novel aspect-aware latent factor model (ALFM), which learns user's and item's latent factors based on ratings. In particular, ALFM introduces a weight matrix to associate those latent factors with the same set of aspects in MATM, such that the latent factors could be used to estimate aspect ratings. Finally, the overall rating is computed via a linear combination of the aspect ratings, which are weighted by the corresponding aspect importance. To this end, our model could alleviate the data sparsity problem and gain good interpretability for recommendation. Besides, every aspect rating is weighted by its aspect importance, which is dependent on the targeted user's preferences and the targeted item's features. Therefore, it is expected that the proposed method can model a user's preferences on an item more accurately for each user-item pair. Comprehensive experimental studies have been conducted on the Yelp 2017 Challenge dataset and Amazon product datasets to demonstrate the effectiveness of our method.</p>
+                        [<a href="https://arxiv.org/abs/1811.05318">PDF</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=434 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Style-oriented Personalized Landmark Recommendation</h4>
+                        <h5>Junge Shen, Zhiyong Cheng*(corresponding author), Meihong Yang, Bing Han, Shuying Li</h5>
+                        <p><b>Abstract</b>: Personalized travel recommendation has attracted lots of research attention in both academic and industry communities. Although a great progress has been achieved so far, existing travel recommender systems have not well-exploited users' style-oriented preference on landmarks and local preference on the targeted city. Typically, users have their own preferences on the styles of landmarks (e.g., natural scenes or historic sites). When visiting a city, their preferences will be affected by the characteristics of this city (e.g., historic or scenic) or the “must-go” landmarks, as well as local contexts such as distance and time constraints. In this paper, we propose a novel style-oriented recommender system, which considers all the above factors to facilitate personalized landmark recommendation. Specifically, we first propose a unified classifier to detect landmark styles based on domain adaptation by leveraging web-photos in the source domain and landmark-image in the target domain. The detected landmark styles are then utilized to learn users' style-oriented preferences based on users' travel records in the past. Next, given a targeted city, the influence of users' landmark style preferences and the characteristics of the must-go landmarks of this city are simultaneously considered by a proposed style-oriented recommender system to make optimal recommendations. In addition, we further study the effects of local contexts, such as landmark popularity or location, on the performance of landmark recommendation. Extensive experiments on the real-world travel data of six cities demonstrate the effectiveness of the proposed style-oriented landmark recommendation strategy.</p>
+                        [<a href="https://ieeexplore.ieee.org/document/8693692">PDF</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=455 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>On Effective Location-Aware Music Recommendation</h4>
+                        <h5>Zhiyong Cheng, Jialie Shen</h5>
+                        <p><b>Abstract</b>: Rapid advances in mobile devices and cloud-based music service now allow consumers to enjoy music anytime and anywhere. Consequently, there has been an increasing demand in studying intelligent techniques to facilitate context-aware music recommendation. However, one important context that is generally overlooked is user’s venue, which often includes surrounding atmosphere, correlates with activities, and greatly influences the user’s music preferences. In this article, we present a novel venue-aware music recommender system called VenueMusic to effectively identify suitable songs for various types of popular venues in our daily lives. Toward this goal, a Location-aware Topic Model (LTM) is proposed to (i) mine the common features of songs that are suitable for a venue type in a latent semantic space and (ii) represent songs and venue types in the shared latent space, in which songs and venue types can be directly matched. It is worth mentioning that to discover meaningful latent topics with the LTM, a Music Concept Sequence Generation (MCSG) scheme is designed to extract effective semantic representations for songs. An extensive experimental study based on two large music test collections demonstrates the effectiveness of the proposed topic model and MCSG scheme. The comparisons with state-of-the-art music recommender systems demonstrate the superior performance of VenueMusic system on recommendation accuracy by associating venue and music contents using a latent semantic space. This work is a pioneering study on the development of a venue-aware music recommender system. The results show the importance of considering the influence of venue types in the development of context-aware music recommender systems.</p>
+                        [<a href="https://dl.acm.org/doi/10.1145/2846092">PDF</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=331 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>On Very Large Scale Test Collection for Landmark Image Search Benchmarking</h4>
+                        <h5>Zhiyong Cheng, Jialie Shen</h5>
+                        <p><b>Abstract</b>: High quality test collections have been becoming more and more important for the technological advancement in geo-referenced image retrieval and analytics. In this paper, we present a large scale test collection to support robust performance evaluation of landmark image search and corresponding construction methodology. Using the approach, we develop a very large scale test collection consisting of three key components: (1) 355,141 images of 128 landmarks in five cities across three continents crawled from Flickr; (2) different kinds of textual features for each image, including surrounding text (e.g. tags), contextual data (e.g. geo-location and upload time), and metadata (e.g. uploader and EXIF); and (3) six types of low-level visual features. In order to support robust and effective performance assessment, a series of baseline experimental studies have been conducted on the search performance over both textual and visual queries. The results demonstrate importance and effectiveness of the test collection.</p>
+                        [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168415003813">PDF</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=496 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Online Multi-modal Hashing with Dynamic Query-adaption</h4>
+                        <h5>Xu Lu, Lei Zhu, Zhiyong Cheng, Liqiang Nie, Huaxiang Zhang</h5>
+                        <p><b>Abstract</b>: Multi-modal hashing is an effective technique to support large-scale multimedia retrieval, due to its capability of encoding heterogeneous multi-modal features into compact and similarity-preserving binary codes. Although great progress has been achieved so far, existing methods still suffer from several problems, including: 1) All existing methods simply adopt fixed modality combination weights in online hashing process to generate the query hash codes. This strategy cannot adaptively capture the variations of different queries. 2) They either suffer from insufficient semantics (for unsupervised methods) or require high computation and storage cost (for the supervised methods, which rely on pair-wise semantic matrix). 3) They solve the hash codes with relaxed optimization strategy or bit-by-bit discrete optimization, which results in significant quantization loss or consumes considerable computation time. To address the above limitations, in this paper, we propose an Online Multi-modal Hashing with Dynamic Query-adaption (OMH-DQ) method in a novel fashion. Specifically, a self-weighted fusion strategy is designed to adaptively preserve the multi-modal feature information into hash codes by exploiting their complementarity. The hash codes are learned with the supervision of pair-wise semantic labels to enhance their discriminative capability, while avoiding the challenging symmetric similarity matrix factorization. Under such learning framework, the binary hash codes can be directly obtained with efficient operations and without quantization errors. Accordingly, our method can benefit from the semantic labels, and simultaneously, avoid the high computation complexity. Moreover, to accurately capture the query variations, at the online retrieval stage, we design a parameter-free online hashing module which can adaptively learn the query hash codes according to the dynamic query contents. Extensive experiments demonstrate the state-of-the-art performance of the proposed approach from various aspects.</p>
+                        [<a href="https://dl.acm.org/doi/10.1145/3331184.3331217">PDF</a>][<a href="https://github.com/lxuu306/OMH-DQ_SIGIR2019">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=414 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>User Diverse Preference Modeling via Multimodal Attentive Metric Learning</h4>
+                        <h5>Fan Liu, Zhiyong Cheng*, Changchang, Yinglong Wang, Liqiang Nie*, Mohan Kankanhalli</h5>
+                        <p><b>Abstract</b>: Most existing recommender systems represent a user's preference with a feature vector, which is assumed to be fixed when predicting this user's preferences for different items. However, the same vector cannot accurately capture a user's varying preferences on all items, especially when considering the diverse characteristics of various items. To tackle this problem, in this paper, we propose a novel Multimodal Attentive Metric Learning (MAML) method to model user diverse preferences for various items. In particular, for each user-item pair, we propose an attention neural network, which exploits the item's multimodal features to estimate the user's special attention to different aspects of this item. The obtained attention is then integrated into a metric-based learning method to predict the user preference on this item. The advantage of metric learning is that it can naturally overcome the problem of dot product similarity, which is adopted by matrix factorization (MF) based recommendation models but does not satisfy the triangle inequality property. In addition, it is worth mentioning that the attention mechanism cannot only help model user's diverse preferences towards different items, but also overcome the geometrically restrictive problem caused by collaborative metric learning. Extensive experiments on large-scale real-world datasets show that our model can substantially outperform the state-of-the-art baselines, demonstrating the potential of modeling user diverse preference for recommendation. </p>
+                        [<a href="https://arxiv.org/abs/1908.07738">PDF</a>][<a href="https://github.com/liufancs/MAML">CODE</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" height=352 width=0 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h4>Which Information Sources are More Effective and Reliable in Video Search</h4>
+                        <h5>Zhiyong Cheng, Xuanchong Li, Jialie Shen, Alexander Hauptmann</h5>
+                        <p><b>Abstract</b>: It is common that users are interested in finding video seg-ments, which contain further information about the videocontents in a segment of interest. To facilitate users to findand browse related video contents, video hyperlinking aimsat constructing links among video segments  with relevantinformation in a large video collection. In this study,  weexplore the  effectiveness of various video features on the performance of video hyperlinking, including subtitle, meta-data, content features (i.e., audio and visual), surroundingcontext, as well as the combinations of those features.  Be-sides, we also test different search strategies over differenttypes of queries, which are categorized according to theirvideo contents. Comprehensive experimental  studies havebeen conducted on the dataset of TRECVID 2015 video hy-perlinking task. Results show that (1)text features playa crucial role in search  performance, and the combinationof audio and visual features cannot provide improvements;(2)the consideration of contexts cannot obtain better re-sults; and (3) due to the lack of training examples, machinelearning techniques cannot improve the performance.</p>
+                        [<a href="http://www.mysmu.edu/phdis2011/zy.cheng.2011/spr368-cheng.pdf">PDF</a>]
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Information Intelligence Group
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+						<a onclick="window.location='#'"><i class="fa fa-chevron-up" aria-hidden="true"></i></a> 
+					</span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
